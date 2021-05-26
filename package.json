@@ -1,0 +1,13 @@
+{
+  "name": "discord.ts-bot",
+  "version": "1.0.0",
+  "description": "discord.ts bot with additional features",
+  "main": "main.js",
+  "author": "GliderCodes",
+  "license": "MIT",
+  "dependencies": {
+    "@typeit/discord": "^5.0.4",
+    "discord.js": "discordjs/discord.js",
+    "reflect-metadata": "^0.1.13"
+  }
+}
