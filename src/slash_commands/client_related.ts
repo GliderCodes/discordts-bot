@@ -5,7 +5,7 @@ import { Guild } from "../utils/guards/guild";
 
 @Discord()
 @Group("set", "set client settings")
-@Guard(Guild("ID"))
+@Guard(Guild("ID")) // change ID
 export abstract class Client_Related {
   @Slash("username")
   username(

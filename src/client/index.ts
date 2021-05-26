@@ -19,7 +19,7 @@ class Client extends DiscordTSClient {
 
   // starting the bot
   public async start() {
-    await this.login(client.token);
+    await this.login(client.token); // change token in settings.json
 
     this.once("ready", async () => {
       console.log(`${this.user.tag} is now online`);
