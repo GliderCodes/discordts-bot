@@ -7,9 +7,15 @@
   "license": "MIT",
   "dependencies": {
     "@typeit/discord": "^5.0.4",
-    "@types/node": "^15.6.1",
     "discord.js": "discordjs/discord.js",
     "reflect-metadata": "^0.1.13",
     "tslib": "^2.2.0"
+  },
+  "scripts": {
+    "dev": "ts-node-dev --respawn --transpile-only --poll ./main.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^15.6.1",
+    "ts-node-dev": "^1.1.6"
   }
 }
