@@ -1,0 +1,22 @@
+{
+    "Slash Commands": {
+        "prefix": "/c",
+        "body": [
+            "import { Discord, Slash } from \"@typeit/discord/\";",
+            "import { CommandInteraction } from \"discord.js\";",
+            "import Client from \"../client\";",
+            "",
+            "@Discord()",
+            "export abstract class $1 {",
+            "   @Slash(\"$2\")",
+            "   $2(", 
+            "       interaction:CommandInteraction,",
+            "       client:Client",
+            "   ) {",
+            "       $3",
+            "   };",
+            "};"
+        ],
+        "description": "Log output to console"
+    }
+}
