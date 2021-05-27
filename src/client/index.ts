@@ -14,6 +14,7 @@ class Client extends DiscordTSClient {
       ],
       silent: false,
       requiredByDefault: true,
+      // slashGuilds: [""], // used in dev mode to load slash commands faster
     });
   }
 
